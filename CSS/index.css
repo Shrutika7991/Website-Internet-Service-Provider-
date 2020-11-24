@@ -1,0 +1,84 @@
+body{
+	color: #fc6a03;
+	margin:0;
+	padding:0;
+	content: center;
+	font-family: cooper black;
+}
+
+.container{
+	width:80%;
+	margin: auto;
+	overflow:hidden;
+}
+
+header img {
+	height: 60px;
+	padding-top: 25px;
+	padding-left: 40%;
+}
+
+h1{
+	margin-top: 100px;
+	margin-left: 26%;
+}
+
+.login{
+	background-color: rgba(54, 25, 25, .4);
+	width: 30%;
+	margin: auto;
+}
+
+.login form{
+	display: grid;
+	grid-gap:30px;
+	margin: 100px auto;
+	padding: 40px;
+}
+
+.login form label{
+	font-weight: bold;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	display:block;
+	font-size:20px;
+}
+
+
+.login form p{
+	margin:0;
+}
+
+.login form input{
+	margin-left: 20px;
+	width:80%;
+	border:1px solid #c9e6ff;
+	padding:16px;
+}
+
+.login form input[type="button"]{
+	width: 130px;
+	margin-left: 30%;
+	background-color:rgba(139, 0, 0, .8);
+	border:0;
+	text-transform:uppercase;
+	border-radius: 5px;
+	color:#fff;	
+}
+
+.login form input[type="button"]:hover{
+	background-color:rgba(139, 0, 0, .4);
+	color:#000;	
+}
+
+.down{
+	animation: slide-down 1s;
+	margin-top:0%;
+	overflow: hidden;
+}
+
+@keyframes slide-down {
+	from { margin-top: -60%;}
+	to { margin-top: 0%;}
+}
+

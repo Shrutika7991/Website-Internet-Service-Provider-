@@ -1,0 +1,282 @@
+body{
+	background-color:#fff;
+	color: #008080;
+	margin:0;
+	padding:0;
+}
+
+.container{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+header {
+	height: 100px;
+	background-color: #333;
+	overflow: hidden;
+}
+
+header img {
+	height: 50px;
+	padding-top: 25px;
+	padding-left: 10%;
+}
+
+nav {
+	float: right;
+	padding-top: 45px;
+	padding-right: 10%;
+}
+
+nav a {
+	color: #008080;
+	font-size: 20px;
+	display: inline;
+	text-decoration: none;
+	padding: 0px 25px;
+}
+
+nav a:hover {
+	color: cyan;
+}
+
+.cable {
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #333;
+	margin-left: 200px;
+	margin-top: 100px;
+	line-height: 0.5px;
+}
+
+#content, #content-1, #content-2, #content-3{
+	display:grid;
+	grid-template-columns:repeat(6, 1fr);
+	width:960px;
+	margin: 80px 200px;
+	height: 160px;
+	box-shadow: 0 2px 4px 1px #008080;
+}
+
+#content div, #content-1 div, #content-2 div, #content-3 div{
+	padding:30px;
+	box-shadow: 0 0 0 1px #008080;
+}
+
+#one, #one-1, #one-2, #one-3{
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	line-height: 0.5px;
+}
+
+#two, #two-1, #two-2, #two-3{
+	text-align: center;
+	line-height: none;
+}
+
+#two img, #two-1 img, #two-2 img, #two-3 img{
+	width: 30px;
+}
+
+#three, #three-1, #three-2, #three-3 {
+	text-align: center;
+	background-color: #93bebd;
+	color: #fff;
+}
+
+#three img, #three-1 img, #three-2 img, #three-3 img{
+	width: 40px;
+}
+
+#four, #four-1, #four-2, #four-3 {
+	text-align: center;
+	background-color: #93bebd;
+	color: #fff;
+}
+
+#four img, #four-1 img, #four-2 img, #four-3 img{
+	width: 40px;
+}
+
+#five, #five-1, #five-2, #five-3{
+	text-align: center;
+	background-color: #93bebd;
+	color: #fff;
+}
+
+#five img, #five-1 img, #five-2 img, #five-3 img{
+	width: 40px;
+}
+
+#six, #six-1, #six-2, #six-3 {
+	padding-top: 15px;
+	font-size: 20px;
+	text-align: center;
+	background-color: #8B0000;
+	color: #fff;
+	height: 160px;
+	width: 160px;
+}
+
+.services div{
+	font-size: 20px;
+	font-family: sans-serif;
+	background-color: #FF8C00;
+	width: 80%;
+	text-align:center;
+	box-sizing:border-box;
+	box-shadow: 0 2px 4px 0 #008080;
+	height: 400px;
+	padding-top: 10px;
+	margin: 70px 100px;
+	justify-content: space-between;
+	overflow: visible;
+}
+
+.services img{
+	float:left;
+	padding: 40px 30px;
+	height: 300px;
+	width: 400px;
+}
+
+.services p {
+	margin-top: 30px;
+	color: #333;
+	margin-bottom: 50px;
+}
+
+.services h1 {
+	margin: 60px 100px;
+	font-size: 50px;
+}
+
+.services h2{
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+#modal-btn1, #modal-btn2, #modal-btn3 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 20%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+#btnbtn {
+  margin-top: 90px;
+  margin-left: -370px;
+  position: absolute;
+  overflow: visible;
+  background-color: #4CAF50;
+  padding: 6px;
+  border: none;
+  width: 20%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+#btnbtn a{
+  text-decoration: none;
+  color: white;
+}
+
+footer{
+	padding:20px;
+	background-color:#333;
+}
+
+footer p {
+	color: #fff;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}
+
+#modal1, #modal2, #modal3 {
+  left: 35%;
+  top: 25%;
+  margin-left: -200px;
+  margin-top:-300px;
+  position: relative;
+  display: none;
+  z-index: 1;
+  width: 77%;
+  height: 50%;
+  overflow: visible;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+}
+
+#modal-content {
+  z-index: 1;
+  height: 170px;
+  width: 150px;
+  position: relative;
+  background-color: #fefefe;
+  border: 1px solid #888;
+  width: 70%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.4s;
+  overflow: visible;
+}
+
+#modal-content p{
+  margin-top: 20px;
+  margin-left: 0px;
+  position: absolute;
+  overflow: visible;
+}
+
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.close1, .close2, .close3 {
+  color: #000;
+  padding: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: -10px;
+  margin-left: -130px;
+  position: absolute;
+  overflow: visible;
+}
+
+#modal-body {
+	z-index: 1;
+	margin: auto;
+}
