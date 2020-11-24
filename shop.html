@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	
+	<head>
+		<title>Speedotron - Internet Services</title>
+		<meta charset = "UTF-8">
+		<link rel="stylesheet" type="text/css" href="./css/shop.css">
+	</head>
+	
+	<body>
+		
+		<header>
+			<div  class = "conatiner">
+			<img src = "./media/logo.png">
+			<nav>
+				<a href="home.html"><b>Home</b></a>
+				<a href="shop.html"><b>Shop</b></a>
+				<a href="Cart.html"><b>Cart</b></a>
+				<a href="Support.html"><b>Support</b></a>
+				<a href="Contact.html"><b>Contact</b></a>
+			</nav>
+			</div>
+		</header>
+		
+		<section class="container">
+			<div class="services">
+			
+			<h1>We provide the below given services at Speedotron...</h1>
+			
+			<div>
+				<img src = "./media/IOT.png">
+				<h2>HOME INTERNET</h2>				
+				<p>Looking for a fast, reliable and affordable Internet package in Montreal, Gatineau, or most cities in Quebec? Get on board with EBOX, and choose the Internet package that suits your needs.</p>
+				<button id="modal-btn1" onclick="modal('1')">See More</button>
+				<div id="modal1">
+
+				  <div id="modal-content">
+					  <span class="close1">&times;</span>
+					  <p>Get on board with EBOX, and choose the Internet package that suits your needs.</p><br>
+					  <button id = "btnbtn"><a href="shop-1.html">Go</a></button>
+				  </div>
+
+				</div>
+			</div>
+			
+			<div>
+				<img src = "./media/mobile.jpg">
+				<h2>MOBILE INTERNET</h2>	
+				<p>Subscribe to one of our dual cable Internet services with a TV package and get activation at $ 0 * instead of $ 49.95. To benefit from this offer, you must be a new subscriber to the order address and be a resident of Quebec.</p>
+				<button id="modal-btn2" onclick="modal('2')">See More</button>
+				<div id="modal2">
+
+				  <div id="modal-content">
+					  <span class="close2">&times;</span>
+					  <p>To benefit from this offer, you must be a new subscriber to the order address and be a resident of Quebec.</p>
+					  <button id = "btnbtn"><a href="shop-3.html">Go</a></button>
+				  </div>
+
+				</div>
+			</div>
+			
+			<div>
+				<img src = "./media/telephony1.jpg">
+				<h2>TELEPHONE INTERNET</h2>	
+				<p> Overseas calls are unlimited only when destined to one of 72 designated regions. All calls to landline phones included, excludes certain call types such as calls to non-geographic and premium numbers.</p>
+				<button id="modal-btn3" onclick="modal('3')">See More</button>
+				<div id="modal3">
+
+				  <div id="modal-content">
+					  <span class="close3">&times;</span>
+					  <p>Overseas calls are unlimited only when destined to one of 72 designated regions.</p>
+					  <button id = "btnbtn"><a href="shop-2.html">Go</a></button>
+				  </div>
+
+				</div>
+			</div>
+			
+		</section>
+		
+		<footer>
+			<div class="container">
+			
+				<h2>GET IN TOUCH</h2>
+					<p>
+					Contact: 514-574-7397
+					</p>
+					<p>
+					Email: Lasalle@gmail.com
+					</p>
+					<p>
+					Address: 2000, Saint Catherine
+					</p>
+				
+				<hr>
+				
+				<h2>ABOUT US</h2>
+					<p>
+						SPEEDOTRON is an independent Internet service provider offering services in the provinces of Ontario and Quebec.</p>
+					<p>
+						Our growth and success are mainly due to our very competitive pricing, our devoted staff and our complete product portfolio including DSL, Cable, Fiber and VoIP.
+					</p>
+				
+				<hr>		
+				
+		</div>
+		</footer>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
+		
+	</body>
+	
+	<script>
+		var mybutton = document.getElementById("myBtn");
+
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+
+		scrollFunction();
+
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+
+		topFunction()
+	</script>
+
+	<script src="./js/shop.js"></script>
+	
+</html>

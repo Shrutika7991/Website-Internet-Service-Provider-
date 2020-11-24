@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+	
+	<head>
+		<title>Speedotron - Internet Services</title>
+		<meta charset = "UTF-8">
+		<link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	
+	<body>
+		
+		<header>
+			
+			<img src = "./media/logo.png">
+			<nav>
+				<a href="home.html"><b>Home</b></a>
+				<a href="Shop.html"><b>Shop</b></a>
+				<a href="Cart.html"><b>Cart</b></a>
+				<a href="Support.html"><b>Support</b></a>
+				<a href="Contact.html"><b>Contact</b></a>
+			</nav>
+			
+		</header>
+		
+		<section class ="slideshow-container">
+			<div class="slideshow-container">
+
+			  <div class="mySlides fade">
+				<img src="./media/slide1.jpg" style="width :100%">
+				<p id="home-slider">Speedotron</p>
+				<p id="home-slider" style="font-size: 40px; top: 40%;">Get Connected to the World in matter of seconds...</p>
+			  </div>
+
+			  <div class="mySlides fade">
+				<img src="./media/slide3.jpg" style="width :100%">
+				<p id="home-slider" style="text-shadow: 2px 2px #008080;">Speedotron</p>
+				<p id="home-slider" style="font-size: 40px; top: 40%; text-shadow: 2px 2px #008080;">Your Safety is our assurance</p>
+			  </div>
+
+		    <div class="mySlides fade">
+				<img src="./media/slide2.jpg" style="width:100%">
+			</div>
+		
+
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>
+			<!-- <div id = "home-slider"> -->
+				<!-- <p>Speedotron</p> -->
+			<!-- </div> -->
+
+		</section>
+			
+		<section>
+			<div class="services">
+			<div>
+				<img src = "./media/internet.png">
+				<h1>INTERNET</h1>
+				<button><a href="shop-1.html">CHOOSE YOUR PACKET</a></button>
+			</div>
+			
+			<div>
+				<img src = "./media/television.png">
+				<h1>TELEVISION</h1>
+				<button><a href="shop-2.html">SELECT YOUR CHANNELS</a></button>
+			</div>
+			
+			<div>
+				<img src = "./media/cellular.png">
+				<h1>CELLULAR</h1>
+				<button><a href="shop-3.html">ADD IT TO YOUR PACK</a></button>
+			</div>
+			</div>
+		</section>
+		
+		<section style="box-shadow: 0 2px 4px 0 #008080;">
+		
+			<div class="services-1">
+			<div class="down">
+				<img src = "./media/user.jpg">
+			</div>
+			
+			<div class="slide">
+				<h3>It's Really Cheap</h3><br><br><br>
+				<h1>PACKAGES STARTING AT</h1>
+				<div><img src = "./media/cellular.png"></div><div class ="1"><img src = "./media/plus.png"></div><div><img src = "./media/internet.png"></div>
+				<h2>= 89$</h2>
+			</div>
+			</div>
+			
+		</section>
+		
+		<footer>
+			<div class="container">
+			
+				<h2>GET IN TOUCH</h2>
+					<p>
+					Contact: 514-574-7397
+					</p>
+					<p>
+					Email: Lasalle@gmail.com
+					</p>
+					<p>
+					Address: 2000, Saint Catherine
+					</p>
+				
+				<hr>
+				
+				<h2>ABOUT US</h2>
+					<p>
+						SPEEDOTRON is an independent Internet service provider offering services in the provinces of Ontario and Quebec.</p>
+					<p>
+						Our growth and success are mainly due to our very competitive pricing, our devoted staff and our complete product portfolio including DSL, Cable, Fiber and VoIP.
+					</p>
+				
+				<hr>		
+				
+		</div>
+		</footer>
+		
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Go to Top</button>
+		
+	</body>
+	
+	<script>
+		var mybutton = document.getElementById("myBtn");
+
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+
+		scrollFunction();
+
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+
+		topFunction()
+	</script>
+	
+	<script src="./js/main.js"></script> 
+	
+</html>
